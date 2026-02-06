@@ -1,34 +1,40 @@
 *{
     margin: 4px;
-    padding: 0;
+    padding: 0;   
     border: 40px;
     box-sizing: border-box;
 }
+
 body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 18px;
+    color: #E5E7EB;
     background-color: #1F2937;
     font-family: Roboto;
     
 }
 
 ul{
-
-    text-align: right;
-    display: inline;
-}
-
-
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;}
 h1{
-    width: 48px;
+    font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: 900 }
+h4{
+    font-size: 24px;    color: #F9FAF8;
+}
+button{
+    font-size: 15px;
+    color: #E5E7EB;
+    border-radius: 5%;
+    background-color: #3882F6;
 }
 
-
-img {
-background-image: url("image/pexels-hikaique-775201.jpg");    
-height: auto;
-width: 100px;
+img{
+    height: auto;
+    width: 250px;
 }
