@@ -4,9 +4,16 @@
     border: 40px;
     box-sizing: border-box;
 }
+.contenair{
+   display: flex;
+   flex-direction: column;
+   background-color:#E5E7EB ;
+   flex-basis: auto;
+}
 
-body{
-    text-align: center;
+.box1{
+    display: flexbox;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     color: #E5E7EB;
@@ -19,13 +26,16 @@ ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;}
+    justify-content: space-evenly;
+    
+    }
 h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900 }
 h4{
-    font-size: 24px;    color: #F9FAF8;
+    font-size: 24px;    
+    color: #F9FAF8;
 }
 button{
     font-size: 15px;
@@ -35,6 +45,15 @@ button{
 }
 
 img{
+    
     height: auto;
-    width: 250px;
+    width: 100px;
+}
+
+.box3{
+   background-color: #E5E7EB;
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 300;
+   text-align: right;
 }
