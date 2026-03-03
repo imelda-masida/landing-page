@@ -1,59 +1,128 @@
-*{
-    margin: 4px;
-    padding: 0;   
-    border: 40px;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.contenair{
-   display: flex;
-   flex-direction: column;
-   background-color:#E5E7EB ;
-   flex-basis: auto;
+
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-.box1{
-    display: flexbox;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+
+#hero {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navlink {
     font-size: 18px;
     color: #E5E7EB;
-    background-color: #1F2937;
-    font-family: Roboto;
-    
 }
 
-ul{
-    list-style-type: none;
+
+.hero-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-    }
-h1{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.hero-primary-text {
     font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900 }
-h4{
-    font-size: 24px;    
+    font-weight: 900;
     color: #F9FAF8;
 }
-button{
+
+.hero-text-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
     font-size: 15px;
     color: #E5E7EB;
-    border-radius: 5%;
     background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-img{
-    
-    height: auto;
-    width: 100px;
+
+.info-section {
+    padding: 40px;
+    text-align: center;
 }
 
-.box3{
-   background-color: #E5E7EB;
-   font-size: 36px;
-   color: #1F2937;
-   font-weight: 300;
-   text-align: right;
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-box {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    font-size: 14px;
+    color: #1F2937;
+}
+
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+
+.cta-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px;
+    text-align: center;
+}
+
+.cta-section button {
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
 }
